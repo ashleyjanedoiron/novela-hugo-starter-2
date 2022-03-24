@@ -1,6 +1,7 @@
 ---
 timeToRead: 5
-authors: []
+authors:
+- Ashley Doiron
 test: 0
 title: Test Post
 excerpt: blah blah
