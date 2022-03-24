@@ -7,6 +7,7 @@ title: Test Post
 excerpt: blah blah
 date: 2022-03-24T03:00:00+00:00
 hero: "/images/screen-shot-2022-03-22-at-1-51-41-pm.png"
+author: authors/ashley-doiron.md
 
 ---
 ## This is my first blog post
