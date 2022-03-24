@@ -27,7 +27,7 @@ sections:
   - author
 - type: directory
   path: config/_default
-  label: Config
+  label: Configuration File
   create: all
   match: "**/*"
   new_doc_ext: yaml
