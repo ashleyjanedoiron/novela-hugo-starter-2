@@ -34,9 +34,19 @@ fields:
 - name: hero
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: Hero Image
 - name: authors
   type: tag_list
   default: []
   label: Authors
+- name: test
+  type: number
+  label: Test
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  description: 'This is a test. '
