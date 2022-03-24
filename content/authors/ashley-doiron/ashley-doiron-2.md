@@ -6,6 +6,5 @@ social:
 - title: Twitter
   url: test
 featured: true
-draft: true
 
 ---
