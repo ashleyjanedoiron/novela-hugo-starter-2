@@ -36,10 +36,6 @@ fields:
   config:
     maxSize: 64
   label: Hero Image
-- name: authors
-  type: tag_list
-  default: []
-  label: Authors
 - name: test
   type: number
   label: Test
@@ -50,5 +46,17 @@ fields:
     max: 
     step: 
   description: 'This is a test. '
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: authors
+      file: 
+      path: 
+  label: Author
 pages:
 - content/post/test-post.md
