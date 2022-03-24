@@ -36,16 +36,6 @@ fields:
   config:
     maxSize: 64
   label: Hero Image
-- name: test
-  type: number
-  label: Test
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
-  description: 'This is a test. '
 - name: author
   type: select
   default: []
@@ -58,5 +48,10 @@ fields:
       file: 
       path: 
   label: Author
+- name: toggle
+  type: boolean
+  label: Toggle
+  description: asdfasdf
+  default: false
 pages:
 - content/post/test-post.md
