@@ -53,5 +53,15 @@ fields:
   label: Toggle
   description: asdfasdf
   default: false
+- name: test
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Test
+  description: 'This is a test field. '
 pages:
 - content/post/test-post.md
